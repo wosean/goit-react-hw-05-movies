@@ -63,7 +63,8 @@ const MovieDetails = () => {
             src={
               poster_path
                 ? `https://image.tmdb.org/t/p/w500${poster_path}`
-                : `https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg`
+              // : `https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg`
+                : 'https://ireland.apollo.olxcdn.com/v1/files/0iq0gb9ppip8-UA/image;s=1000x700'
             }
             alt={original_title}
           />

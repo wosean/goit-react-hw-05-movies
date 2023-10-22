@@ -1,14 +1,19 @@
-import { BallTriangle } from 'react-loader-spinner';
+
+import { Watch } from 'react-loader-spinner';
 import { Container } from './Loader.styled';
 
 const Loader = () => {
   return (
     <Container>
-      <BallTriangle
-        height="100"
-        width="100"
-        color="tomato"
-        ariaLabel="loading"
+      <Watch
+        height="80"
+        width="80"
+        radius="48"
+        color = 'tomato'
+        ariaLabel="watch-loading"
+        wrapperStyle={{}}
+        wrapperClassName=""
+        visible={true}
       />
     </Container>
   );
